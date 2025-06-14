@@ -1,0 +1,184 @@
+* {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+    
+      body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background: hsl(0, 0%, 86%);
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+      }
+
+      .form{
+        border: transparent;
+        background-color: hsl(0, 0%, 100%);
+        width: 650px;
+        min-height: 500px;
+        height: auto;
+        border-radius: 20px;
+        padding: 40px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        border-bottom-right-radius: 150px;
+         
+      }
+      div{
+        position: relative;
+      }
+      input{
+        height: 55px;
+        width: 120px;
+        border-radius: 5px;
+        border: solid hsl(0, 0%, 86%) 1px;
+        font-weight: 800;
+        font-size: 25px;
+        padding: 20px;
+        color: hsl(0, 0%, 8%);
+        background-color: white;
+        
+      }
+
+      /*input{
+        content: "";
+        position: absolute;
+        bottom: 0;
+        border: solid hsl(0,0%, 86%) 1px;
+        font-size: 25px;
+        font-weight: 800;
+        border-radius: 5px;
+        width: 130px;
+        height: 55px;
+        background-color: #ccc;
+        padding: 0 15px;
+      }*/
+      
+      .Day{
+         display: flex;
+        flex-direction: column;
+        position: relative;
+      }
+
+      .Month{
+       /* margin-top: -74px;
+        margin-left: 150px;*/
+        display: flex;
+        flex-direction: column;
+        position: relative;
+      }
+      .Year{
+        /*margin-top: -74px;
+        margin-left: 290px;*/
+         display: flex;
+        flex-direction: column;
+        position: relative;
+      }
+      .input-group{
+        display: flex;
+        gap: 30px;
+        margin-bottom:40px ;
+      }
+
+      .day{
+        font-size: 10px;
+        font-weight: 800;
+        color: hsl(0, 1%, 44%);
+        margin-bottom: 5px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        
+      }
+
+
+      .month{
+        font-size: 10px;
+        font-weight: 800;
+        color: hsl(0, 1%, 44%);
+        margin-bottom: 5px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+      }
+
+
+      .year{
+        font-size: 10px;
+        font-weight: 800;
+        color: hsl(0, 1%, 44%);
+        margin-bottom: 5px;
+         letter-spacing: 2px;
+        text-transform: uppercase;
+      }
+
+
+      .check{
+        border-radius: 100%;
+        padding: 12px;
+        border: none;
+        background-color: hsl(259, 100%, 65%);
+        margin-left: 20px;
+        cursor:pointer;
+      }
+      .arrow{
+        border-radius: 100%;
+        border: none;
+        background-color: hsl(259, 100%, 65%);
+        cursor: pointer;
+      }
+
+      .aiy{
+        color: hsl(0, 0%, 8%);
+        font-size: 90px;
+        font-weight: 800;
+        margin-top: 0;
+        margin-bottom: 0;
+        line-height: 1.1;
+      }
+      .years{
+        color: hsl(259, 100%, 65%);
+        font-size: 90px;
+        font-weight: 500;
+      }
+
+      .aim{
+        color: hsl(0, 0%, 8%);
+        font-size: 90px;
+        font-weight: 800;
+        margin-bottom: 0;
+        margin-top: 0;
+        line-height: 1.1;
+      }
+      .months{
+        color: hsl(259, 100%, 65%);
+        font-size: 90px;
+        font-weight: 500;
+      }
+
+      .aid{
+        color: hsl(0, 0%, 8%);
+        font-size: 90px;
+        font-weight: 800;
+        margin-top: 0;
+        margin-bottom: 0;
+        line-height: 1.1;
+      }
+      .days{
+        color: hsl(259, 100%, 65%);
+        font-size: 90px;
+        font-weight: 500;
+      }
+      .divider {
+        border:none;
+        height: 1px;
+        background-color:hsl(0, 0%, 80%);
+        width:100%;
+      }
+      .line{
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 40px 0 60px 0;
+        
+      }
